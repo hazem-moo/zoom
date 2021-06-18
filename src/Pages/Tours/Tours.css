@@ -36,6 +36,7 @@
 @media (max-width: 767px) {
     .min-tours {
         margin-top: -200px;
+        margin-bottom: 260px;
     }
 }
 
@@ -46,6 +47,7 @@
     box-shadow: 10px 15px 8px rgba(255, 68, 0, 0.4);
     margin-bottom: 30px;
 }
+
 .min-tours .card-img {
     height: 100%;
     display: block;

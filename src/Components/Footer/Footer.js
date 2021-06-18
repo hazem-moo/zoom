@@ -23,7 +23,7 @@ export const Footer = () => {
                     </div>
 
                     <div className='col-md-6'>
-                        <div className='my-links'>
+                        <div className='my-links text-center '>
                             <h2> links </h2>
                             <Link to='/Destinations' onClick={ () => window.scrollTo( 0, 0 ) }> destinations </Link>
                             

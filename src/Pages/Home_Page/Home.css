@@ -52,6 +52,13 @@
     /* background-color: aliceblue; */
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .slide .slide-control {
+        top: 60%;
+    }
+}
+
 .slide .slide-control.left  {
     left: 9vw;
     padding-right: 1px;

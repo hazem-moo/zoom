@@ -1,5 +1,5 @@
 .footer {
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #151515;
     min-height: 350px;
 }
@@ -32,4 +32,8 @@
     display: block;
     color: aliceblue;
     font-size: 20px;
+}
+
+.footer .my-links > a:last-child {
+    margin-bottom: 35px;
 }
