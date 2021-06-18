@@ -1,0 +1,129 @@
+/* start logo  */
+
+.logo-tours {
+    background: url('../../Imgs/23.jpg');
+    height: 1200px;
+    background-size: 100vw 100% !important;
+    position: relative;
+    bottom: 86px;
+    color: aliceblue;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@media ( max-width : 768px ) {
+    .logo-tours {
+        bottom: 325px;
+        height: 666px;
+    }
+}
+
+.logo-tours h2 {
+    font-size: 10vw;
+    padding: 10px;
+    font-family: lobster;
+}
+
+@media (max-width: 767px) {
+    .logo-tours h2{
+        margin-top: 125px;
+    }
+}
+/* start min-tour  */
+
+
+@media (max-width: 767px) {
+    .min-tours {
+        margin-top: -200px;
+    }
+}
+
+.min-tours .card {
+    height: 400px; 
+    overflow-y: hidden !important;
+    border-radius: 15px;
+    box-shadow: 10px 15px 8px rgba(255, 68, 0, 0.4);
+    margin-bottom: 30px;
+}
+.min-tours .card-img {
+    height: 100%;
+    display: block;
+
+}
+
+.min-tours .card-body {
+    position: absolute  !important;
+    height: 40%;
+    width: 100%;
+    overflow-y: hidden;
+    background-color: orangered;
+    transition: all 1s ease-in-out ;
+    z-index: 2;
+    bottom: -162px;
+}
+
+.min-tours .card:hover .card-body {
+    bottom: 0 !important;
+}
+
+.min-tours .card-body h4 {
+    color: #fff;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+}
+
+.min-tours .card-body > span,
+.min-tours .card-body > p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tours h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: orangered;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+    .tours {
+        margin-top: -300px;
+    }
+}
+
+.tours p {
+    counter-reset: #777;
+}
+
+.info-tours {
+    margin-top: 40px;
+}
+
+.info-tours h4 {
+    padding: 10px;
+}
+
+.info-tours p {
+    background-color: #eee;
+    color: #555;
+}
+
+.info-tours span {
+    color: #666;
+    margin-left: 2vw;
+}
+
+/* start from ouur  */
+
+.from-our .info .info-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.from-our .info .info-img img {
+    height: 100vh;
+}

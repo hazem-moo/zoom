@@ -1,0 +1,129 @@
+.slide {
+    z-index: 1;
+    bottom: 86px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+@media ( max-width: 768px ) {
+    .slide {
+        bottom: 325px;
+        height: 700px;
+    }
+}
+
+.slide .carousel-inner .carousel-item {
+    overflow: hidden !important;
+    width: 100vw;
+    height: 900px;
+}
+.slide .carousel-inner .carousel-item .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.5);
+}
+.slide .carousel-inner .carousel-item > img {
+    width: 100vw;
+    height: 100%;
+}
+.slide .carousel-inner .carousel-item .carousel-caption {
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+.slide .carousel-inner .carousel-item .carousel-caption h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 10vw;
+    padding: 10px;
+}
+
+.slide .slide-control {
+    position: absolute !important;
+    top: 45%;
+    width: 6vw;
+    font-size: 4vw;
+    height: 6vw;
+    border-radius: 50%;
+    color: orangered !important;
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+.slide .slide-control.left  {
+    left: 9vw;
+    padding-right: 1px;
+}
+.slide .slide-control.right {
+    right: 9vw;
+}
+
+/* start home info  */
+
+@media (max-width : 767px) {
+    .home-info {
+        margin-top: -230px;
+    }
+}
+.home-info .info {
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 15px rgb(255, 184, 158);
+}
+.home-info .info h4 {
+    font-weight: 700;
+    padding: 10px;
+    text-transform: capitalize; 
+}
+.home-info .info h5 {
+    padding: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+.home-info .info p {
+    color: #777;
+    font-size: 17px;
+    padding: 0 10px 20px;
+}
+
+/* start home-infomation */
+
+.home-infomation {
+    margin-top: 70px;
+}
+
+.home-infomation .info2 {
+    margin-bottom: 55px;
+}
+
+.home-infomation .info2 .icon {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+    overflow-y: hidden;
+    padding-top: 30px;
+}
+
+.home-infomation .info2  > h4 {
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.home-infomation .info2  > h4:hover {
+    color: orangered;
+}
+
+.home-infomation .info2  > p {
+    color: #777;
+    padding: 10px;
+}
+@media ( max-width: 767px ) {
+    .home-infomation  {
+        margin-bottom: 225px;
+    }
+}

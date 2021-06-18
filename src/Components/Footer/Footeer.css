@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 40px;
+    background-color: #151515;
+    min-height: 350px;
+}
+
+.footer .footer-info {
+    margin-top: 50px;
+}
+
+.footer .brand {
+    color: orangered;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Lobster;
+}
+.footer .footer-info p {
+    color: aliceblue;
+}
+
+.footer .my-links {
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.footer .my-links h2 {
+    padding: 10px;
+    margin-top: 28px;
+}
+
+.footer .my-links > a {
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+}

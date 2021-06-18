@@ -1,0 +1,107 @@
+.main6,
+.main4 ,
+.main10 ,
+.main9 ,
+.main13 ,
+.main11
+{
+    background:  url('../../../Imgs/14.jpg') ;
+    background-size: 100vw 100% !important;
+    height: 1200px;
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 86px;
+    background-repeat: no-repeat !important;
+
+}
+
+@media ( max-width : 768px ) {
+    .main4, .main6, .main9, .main10, .main11, .main13 {
+        bottom: 325px;
+        overflow-y: hidden;
+        height: 700px;
+    }
+}
+
+.main4 {
+    background:  url('../../../Imgs/12.jpg');
+}
+
+.main11 {
+    background:  url('../../../Imgs/11.jpg');
+
+}
+
+.main11 {
+    background:  url('../../../Imgs/13.jpg');
+}
+
+.main9 {
+    background:  url('../../../Imgs/9.jpg') center;
+    background-size: 100vw 100% !important;
+}
+
+.main10 {
+    background:  url('../../../Imgs/10.jpg');
+}
+
+.main6 .overlay,
+.main11 .overlay,
+.main10 .overlay,
+.main9 .overlay,
+.main4 .overlay
+ {
+    color: rgba(17, 17, 17, 0.342);
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    z-index: 3;
+}
+
+.main6 h3,
+.main11 h3,
+.main9 h3,
+.main10 h3,
+.main4 h3, 
+.main13 h3, 
+.main10 h3 
+{
+    color: aliceblue;
+    font-size: 10vw;
+    padding: 12px;
+}
+
+@media (max-width: 767px) {
+    .main6 h3, .main11 h3, .main9 h3, .main10 h3, .main4 h3, .main13 h3, .main10 h3 {
+        margin-top: 125px;
+    }
+
+    .my-main10, .my-main11, .my-main13, .my-main4, .my-main9, .my-main6 {
+        margin-top: -280px;
+    }
+}
+
+.my-main6 h3,
+.my-main10 h3 ,
+.my-main11 h3,
+.my-main9 h3,
+.my-main13 h3,
+.my-main4 h3
+{
+    color: orangered;
+    padding: 10px;
+}
+.my-main13 .my-img,
+.my-main9 .my-img,
+.my-main10 .my-img 
+{
+    overflow: hidden;
+    max-height: 400px;
+}
+.my-main4 .my-img {
+    overflow-y: hidden  ;
+    max-height: 400px;
+    margin-bottom: 35px;
+}
